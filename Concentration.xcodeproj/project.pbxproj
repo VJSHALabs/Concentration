@@ -12,6 +12,8 @@
 		944A945E201AB11B003C8617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944A945C201AB11B003C8617 /* Main.storyboard */; };
 		944A9460201AB11B003C8617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944A945F201AB11B003C8617 /* Assets.xcassets */; };
 		944A9463201AB11B003C8617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944A9461201AB11B003C8617 /* LaunchScreen.storyboard */; };
+		94DF21AB201BF55F00082A84 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF21AA201BF55F00082A84 /* Concentration.swift */; };
+		94DF21AD201BF60600082A84 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DF21AC201BF60600082A84 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		944A945F201AB11B003C8617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		944A9462201AB11B003C8617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		944A9464201AB11B003C8617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DF21AA201BF55F00082A84 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		94DF21AC201BF60600082A84 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		944A9457201AB11B003C8617 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				944A9458201AB11B003C8617 /* AppDelegate.swift */,
 				944A945A201AB11B003C8617 /* ViewController.swift */,
 				944A945C201AB11B003C8617 /* Main.storyboard */,
-				944A945F201AB11B003C8617 /* Assets.xcassets */,
-				944A9461201AB11B003C8617 /* LaunchScreen.storyboard */,
+				94DF21AA201BF55F00082A84 /* Concentration.swift */,
+				94DF21AC201BF60600082A84 /* Card.swift */,
+				944A946A201AB683003C8617 /* Supporting Files */,
 				944A9464201AB11B003C8617 /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		944A946A201AB683003C8617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944A9458201AB11B003C8617 /* AppDelegate.swift */,
+				944A945F201AB11B003C8617 /* Assets.xcassets */,
+				944A9461201AB11B003C8617 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			files = (
 				944A945B201AB11B003C8617 /* ViewController.swift in Sources */,
 				944A9459201AB11B003C8617 /* AppDelegate.swift in Sources */,
+				94DF21AB201BF55F00082A84 /* Concentration.swift in Sources */,
+				94DF21AD201BF60600082A84 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AKNC7X8JM;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vjsha.com.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AKNC7X8JM;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vjsha.com.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
